@@ -9,6 +9,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
   <link href="//db.onlinewebfonts.com/c/d14035f6b1afeabafbee4abb2ebf0fc6?family=COCOGOOSE" rel="stylesheet" type="text/css"/>
+  <link href="//db.onlinewebfonts.com/c/e080040fab017e068ee2901a6cdb5ec4?family=Lato" rel="stylesheet" type="text/css"/>
   <link rel="stylesheet" href="styles.css" />
   <title>Dataverse</title>
   <script src="https://kit.fontawesome.com/02aeb58d23.js" crossorigin="anonymous"></script>
@@ -16,7 +17,7 @@
 
 <body>
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light px-2 px-lg-3">
+<nav class="navbar navbar-expand-lg navbar-light bg-light px-2 px-lg-3 fixed-top">
   <a class="navbar-brand ml-2" href="#">Dataverse</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -37,33 +38,42 @@
           <a class="nav-link" href="#">Sign in</a>
         </li>
         <li class="nav-item px-3">
-          <button class="btn btn-primary py-0">Get Started</button>
+          <button class="btn btn-primary">Get Started</button>
         </li>
       </ul>
     </div>
   </div>
 </nav>
 
-<main class="container-fluid">
+<main class="container-fluid pt-5">
 
-  <header class="row d-flex flex-column flex-md-row">
-    <div class="col-md-8 col-lg-7">
-      <h1 class="mb-4 display-1">The latest digital skills, <br> within reach.</h1>
-      <p>Discover the fastest, most effective way to gain job-ready expertise for the careers of the future.</p>
-    </div>
-    <div class="col-md-4 col-lg-5">
-      <img class="w-100" src="https://www.cfrinc.net/hubfs/data%20analysis%20techniques%20for%20market%20research.jpg" alt="header-image"/>
+  <header class="header-home d-flex flex-column">
+    <div class="container-md py-5 my-5">
+      <h1 class="header-title text-center text-uppercase mb-4 display-1">The latest digital skills, <br> within reach.</h1>
+      <p class="header-text text-center">Discover the fastest, most effective way to gain job-ready expertise for the careers of the future.</p>
     </div>
   </header>
 
-  <section class="courses-section py-3 border-top border-bottom text-center">
-    <h2>Explore our schools to find your perfect program</h2>
-    <div class=row>
-      <div class="col-lg-4 col-sm-6">
-
-
+  <section class="courses-section py-3 border-top border-bottom">
+    <h2 class="text-center">Explore our schools to find your perfect program</h2>
+    <div class="card" style="width: 18rem;">
+      <img class="card-img-top" src="https://www.udacity.com/www-proxy/contentful/assets/2y9b3o528xhq/4zEEr4FUkSQ7U1UgVPPCHB/d4c2b2a0df97251f8c64a4e1b248f313/data_engineer_catalog_image.jpg" alt="Card image cap">
+      <div class="card-body text-right">
+        <h5 class="card-title">Data Engineer</h5>
+        <p class="card-text">
+          <i class="fas fa-star text-warning"></i>
+          <i class="fas fa-star text-warning"></i>
+          <i class="fas fa-star text-warning"></i>
+          <i class="fas fa-star text-warning"></i>
+          <i class="fas fa-star-half-alt text-warning"></i>
+          <small>4.6 (1057)</small><br>
+          <i class="fas fa-thermometer-half text-primary"></i>&nbsp;<small>Intermediate</small><br>
+          <small class="text-uppercase my-0">estimated time</small><br>
+          <small>5 months at 5-10 hrs/week</small>
+        </p>
       </div>
     </div>
+
   </section>
 
   <section class="features-section text-center">
@@ -130,7 +140,6 @@
   <small class="text-center mb-4 px-lg-5">Dataverse is not an accredited university and we don't confer traditional degrees. Dataverse programs represent collaborations with our industry partners who help us develop our content and who hire many of our program graduates.</small>
 </footer>
 
-
-  <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script> -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
 </body>
 </html>
