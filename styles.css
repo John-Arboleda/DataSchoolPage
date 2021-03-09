@@ -8,17 +8,39 @@
 
 @font-face {font-family: "Lato"; src: url("//db.onlinewebfonts.com/t/e080040fab017e068ee2901a6cdb5ec4.eot"); src: url("//db.onlinewebfonts.com/t/e080040fab017e068ee2901a6cdb5ec4.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/e080040fab017e068ee2901a6cdb5ec4.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/e080040fab017e068ee2901a6cdb5ec4.woff") format("woff"), url("//db.onlinewebfonts.com/t/e080040fab017e068ee2901a6cdb5ec4.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/e080040fab017e068ee2901a6cdb5ec4.svg#Lato") format("svg"); }
 
-.header-title {
+.header-title,
+.brand-text,
+.section-title  {
   font-family: "COCOGOOSE";
+}
+
+.header-text,
+.section-subtitle {
+  font-family: "Lato";
+}
+
+.header-title {
+  text-shadow: 2px 2px 8px #d3d3d3;
+}
+.header-text {
+  text-shadow: 1px 1px 2px #d3d3d3;
+}
+
+.cc-orange-color {
   color: #ec5242;
 }
 
-.header-text {
-  font-family: "Lato";
-  color: #ec5242;
+.cc-dark-color {
+  color: #272a31
+}
+
+.cc-gray-color {
+  color: #d3d3d3
 }
 
 /* navbar */
+
+
 
 
 /* header */
@@ -26,5 +48,25 @@
 .header-home {
   background-position: center;
   background-size: cover;
-  background-image: url("https://www.cfrinc.net/hubfs/data%20analysis%20techniques%20for%20market%20research.jpg");
+  background-image: url("https://miro.medium.com/max/1200/1*TBSV23ud8tae3E4szI5EDA.jpeg");
+}
+
+/* feature section */
+
+.level-bar {
+  transform: rotate(90deg);
+  font-size: 20px;
+}
+
+.card-secondary {
+  line-height: 1em;
+}
+
+/* Resources section */
+
+.resources-container {
+  padding: 200px 0;
+  background-position: center;
+  background-size: cover;
+  background-image: url("https://edtechmagazine.com/higher/sites/edtechmagazine.com.higher/files/styles/cdw_hero/public/articles/%5Bcdw_tech_site%3Afield_site_shortname%5D/202002/aihero.jpg?itok=f2TWAOuP");
 }
