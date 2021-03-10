@@ -80,3 +80,21 @@
   background-size: cover;
   background-image: url("https://edtechmagazine.com/higher/sites/edtechmagazine.com.higher/files/styles/cdw_hero/public/articles/%5Bcdw_tech_site%3Afield_site_shortname%5D/202002/aihero.jpg?itok=f2TWAOuP");
 }
+
+/* about */
+
+.mission-container,
+.students-container {
+  margin: auto;
+  border-radius: 20px;
+}
+
+.mission-container {
+  background-image: linear-gradient(to bottom right, rgb(90, 219, 79), rgb(0, 255, 191));
+  max-width: 450px;
+}
+
+.students-container {
+  background-image: linear-gradient(to bottom right, rgb(106, 117, 216), rgb(197, 96, 184));
+  max-width: 550px;
+}
