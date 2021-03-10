@@ -2,26 +2,35 @@
 
 @import url(//db.onlinewebfonts.com/c/d14035f6b1afeabafbee4abb2ebf0fc6?family=COCOGOOSE);
 
-@font-face {font-family: "COCOGOOSE"; src: url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.eot"); src: url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.woff") format("woff"), url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.svg#COCOGOOSE") format("svg"); }
+@font-face {
+  font-family: "COCOGOOSE";
+  src: url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.eot");
+  src: url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.woff") format("woff"), url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.svg#COCOGOOSE") format("svg");
+}
 
 @import url(//db.onlinewebfonts.com/c/e080040fab017e068ee2901a6cdb5ec4?family=Lato);
 
-@font-face {font-family: "Lato"; src: url("//db.onlinewebfonts.com/t/e080040fab017e068ee2901a6cdb5ec4.eot"); src: url("//db.onlinewebfonts.com/t/e080040fab017e068ee2901a6cdb5ec4.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/e080040fab017e068ee2901a6cdb5ec4.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/e080040fab017e068ee2901a6cdb5ec4.woff") format("woff"), url("//db.onlinewebfonts.com/t/e080040fab017e068ee2901a6cdb5ec4.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/e080040fab017e068ee2901a6cdb5ec4.svg#Lato") format("svg"); }
+@font-face {
+  font-family: "Lato";
+  src: url("//db.onlinewebfonts.com/t/e080040fab017e068ee2901a6cdb5ec4.eot");
+  src: url("//db.onlinewebfonts.com/t/e080040fab017e068ee2901a6cdb5ec4.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/e080040fab017e068ee2901a6cdb5ec4.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/e080040fab017e068ee2901a6cdb5ec4.woff") format("woff"), url("//db.onlinewebfonts.com/t/e080040fab017e068ee2901a6cdb5ec4.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/e080040fab017e068ee2901a6cdb5ec4.svg#Lato") format("svg");
+}
 
 .header-title,
 .brand-text,
-.section-title  {
-  font-family: "COCOGOOSE";
+.section-title {
+  font-family: "COCOGOOSE", sans-serif;
 }
 
 .header-text,
 .section-subtitle {
-  font-family: "Lato";
+  font-family: "Lato", sans-serif;
 }
 
 .header-title {
   text-shadow: 2px 2px 8px #d3d3d3;
 }
+
 .header-text {
   text-shadow: 1px 1px 2px #d3d3d3;
 }
@@ -31,17 +40,14 @@
 }
 
 .cc-dark-color {
-  color: #272a31
+  color: #272a31;
 }
 
 .cc-gray-color {
-  color: #d3d3d3
+  color: #d3d3d3;
 }
 
 /* navbar */
-
-
-
 
 /* header */
 
