@@ -47,17 +47,23 @@
   color: #d3d3d3;
 }
 
-/* navbar */
+/* Index.html */
 
-/* header */
-
-.header-home {
+.header-home,
+.resources-container,
+.story-container,
+.header-about {
   background-position: center;
   background-size: cover;
-  background-image: url("https://miro.medium.com/max/1200/1*TBSV23ud8tae3E4szI5EDA.jpeg");
 }
 
-/* feature section */
+.header-sub {
+  background-color: #d3d3d356;
+}
+
+.header-home {
+  background-image: url("https://miro.medium.com/max/1200/1*TBSV23ud8tae3E4szI5EDA.jpeg");
+}
 
 .level-bar {
   transform: rotate(90deg);
@@ -72,16 +78,12 @@
   border-width: 4px;
 }
 
-/* Resources section */
-
 .resources-container {
   padding: 200px 0;
-  background-position: center;
-  background-size: cover;
   background-image: url("https://edtechmagazine.com/higher/sites/edtechmagazine.com.higher/files/styles/cdw_hero/public/articles/%5Bcdw_tech_site%3Afield_site_shortname%5D/202002/aihero.jpg?itok=f2TWAOuP");
 }
 
-/* about */
+/* about.html */
 
 .mission-container,
 .students-container {
@@ -97,4 +99,22 @@
 .students-container {
   background-image: linear-gradient(to bottom right, rgb(106, 117, 216), rgb(197, 96, 184));
   max-width: 550px;
+}
+
+.jobs-container {
+  padding: 100px 0;
+  background-image: url("https://d125fmws0bore1.cloudfront.net/webpack/production/app/components/AboutUs/assets/bg-join-mission.jpg");
+}
+
+.story-container {
+  padding: 100px 0;
+  background-image: url("https://i.pinimg.com/originals/a9/95/f5/a995f5abc92c3d5a96618f5b986fcd2c.jpg");
+}
+
+.story-text-cont {
+  background-color: #272a31da;
+}
+
+.header-about {
+  background-image: url("https://www.simplilearn.com/ice9/free_resources_article_thumb/10-algorithms-machine-learning-engineers-need-to-know-article.jpg");
 }
