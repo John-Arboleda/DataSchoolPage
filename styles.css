@@ -62,6 +62,10 @@
   line-height: 1em;
 }
 
+.card-feature {
+  border-width: 4px;
+}
+
 /* Resources section */
 
 .resources-container {
