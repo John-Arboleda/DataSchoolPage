@@ -10,11 +10,15 @@
 
 ![screenshot 3](./images/footer-mobile.png)
 
-The main purpose of this project is to put into practice the concepts of **Layout**, **Flexbox**, **Grid** and **Bootstrap**. Indispensable tools for a Web Developer.  
+The main purpose of this project is to put into practice the concepts of **Layout**, **Flexbox**, **Grid** and **Bootstrap**. Indispensable tools for a Web Developer.
+
+## Video Description
+
+- Check out [this](https://www.loom.com/share/915fc8e6da004351b6b4947b53245eb7) short Loom description of the project.
 
 ## Built With
 
-- HTML/CSS
+- HTML/CSS/Bootstrap
 
 ## Live Demo
 
