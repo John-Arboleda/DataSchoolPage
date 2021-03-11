@@ -28,19 +28,19 @@
 }
 
 .header-title {
-  text-shadow: 2px 2px 8px #d3d3d3;
+  text-shadow: 2px 2px 8px #ec5242;
 }
 
 .header-text {
-  text-shadow: 1px 1px 2px #d3d3d3;
+  text-shadow: 1px 1px 2px #ec5242;
+}
+
+* {
+  color: #272a31;
 }
 
 .cc-orange-color {
   color: #ec5242;
-}
-
-.cc-dark-color {
-  color: #272a31;
 }
 
 .cc-gray-color {
@@ -117,4 +117,24 @@
 
 .header-about {
   background-image: url("https://www.simplilearn.com/ice9/free_resources_article_thumb/10-algorithms-machine-learning-engineers-need-to-know-article.jpg");
+}
+
+/* courses */
+
+.search-bar {
+  position: fixed;
+  overflow: auto;
+}
+
+.content-search {
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.content {
+  margin-left: 25%;
+}
+
+.sidebar-heading {
+  margin-top: 100px;
 }

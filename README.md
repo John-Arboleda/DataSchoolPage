@@ -4,13 +4,13 @@
 
 > This is the Capstone project for the Microverse HTML/CSS module. A webpage inspired on the [Creative Commons Global Summit 2015](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) website was implemented.
 
-![screenshot 1](./items/Screenshot-navbar.png)
+![screenshot 1](./images/header-img.png)
 
-![screenshot 2](./items/Screenshot-editors-choice.png)
+![screenshot 2](./images/courses-img.png)
 
-![screenshot 3](./items/Screenshot-Inflation.png)
+![screenshot 3](./images/footer-mobile.png)
 
-The main purpose of this project is practicing **Layout**, **Flexbox** and **Grid**. Indispensable concepts for a Web Developer.  
+The main purpose of this project is to put into practice the concepts of **Layout**, **Flexbox**, **Grid** and **Bootstrap**. Indispensable tools for a Web Developer.  
 
 ## Built With
 
@@ -48,9 +48,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- The content and images are from [udacity.com](https://www.udacity.com/)
 
 ## 📝 License
 
