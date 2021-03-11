@@ -22,7 +22,7 @@ The main purpose of this project is to put into practice the concepts of **Layou
 
 ## Live Demo
 
-[Live Demo Link](https://john-arboleda.github.io/NYT-clone-project-1/)
+[Live Demo Link](https://john-arboleda.github.io/DataSchoolPage/)
 
 To get a local copy up and running follow these simple example steps.
 
