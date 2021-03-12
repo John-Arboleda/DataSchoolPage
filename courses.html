@@ -17,200 +17,273 @@
 
 <body>
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light px-2 px-lg-3 fixed-top">
-  <a class="brand-text text-muted navbar-brand ml-2 text-uppercase font-weigh-bolder" href="#">Dataverse</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNavDropdown">
-    <div class="d-flex justify-content-center align-items-center w-100">
-      <ul class="navbar-nav">
-        <li class="nav-item px-3">
-          <a class="nav-link" href="index.html">Home</a>
-        </li>
-        <li class="nav-item px-3">
-          <a class="nav-link" href="courses.html">Courses</a>
-        </li>
-        <li class="nav-item px-3 border-end">
-          <a class="nav-link" href="about.html">About Us</a>
-        </li>
-        <li class="nav-item px-3">
-          <a class="nav-link" href="#">Sign in</a>
-        </li>
-        <li class="nav-item px-3">
-          <button class="btn btn-primary">Get Started</button>
-        </li>
-      </ul>
+<div class="nav-container fixed-top">
+
+  <nav class="navbar navbar-expand-md d-none d-md-block navbar-dark bg-dark px-2 px-lg-3 py-0">
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <div class="d-flex justify-content-end align-items-center w-100">
+        <ul class="navbar-nav">
+          <li class="nav-item px-0">
+            <a class="nav-link py-0" href="#"><i class="fab fa-facebook-f mx-1 cc-gray-color"></i></a>
+          </li>
+          <li class="nav-item px-0">
+            <a class="nav-link py-0" href="#"><i class="fab fa-twitter mx-1 cc-gray-color"></i></a>
+          </li>
+          <li class="nav-item px-1 nav-dar-font">
+            <a class="nav-link py-1 cc-gray-color" href="#">English</a>
+          </li>
+          <li class="nav-item px-1 nav-dar-font">
+            <a class="nav-link py-1 cc-gray-color" href="#">My Page</a>
+          </li>
+          <li class="nav-item px-1 nav-dar-font">
+            <a class="nav-link py-1 cc-gray-color" href="#">Logout</a>
+          </li>
+        </ul>
+      </div>
     </div>
-  </div>
-</nav>
-
-<div class="container-fluid mt-5">
-  <div class="row">
-    <nav class="col-md-3 col-lg-4 d-none d-md-block bg-light sidebar">
-      <div class="sidebar-sticky">
-        <ul class="nav flex-column">
-          <li class="nav-item">
-            <a class="nav-link active" href="#">Orders 1</a>
+  </nav>
+  
+  <nav class="navbar navbar-expand-lg navbar-light bg-light px-2 px-lg-3">
+    <a class="brand-text text-muted navbar-brand ml-2 text-uppercase font-weigh-bolder" href="#">Dataverse</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <div class="d-flex justify-content-end align-items-center w-100">
+        <ul class="navbar-nav">
+          <li class="nav-item px-3">
+            <a class="nav-link" href="index.html">Home</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="#">Orders 2</a>
+          <li class="nav-item px-3">
+            <a class="nav-link" href="courses.html">Courses</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="#">Orders 3</a>
+          <li class="nav-item px-3 border-end">
+            <a class="nav-link" href="about.html">About Us</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="#">Orders 4</a>
+          <li class="nav-item px-3">
+            <a class="nav-link" href="#">Sign in</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="#">Orders 5</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="#">Orders 6</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="#">Orders 7</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="#">Orders 1</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="#">Orders 2</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="#">Orders 3</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="#">Orders 4</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="#">Orders 5</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="#">Orders 6</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="#">Orders 7</a>
-          </li>
-        </ul>
-
-        <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
-          <span>Saved reports</span>
-          <a class="d-flex align-items-center text-muted" href="#">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-plus-circle"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="16"></line><line x1="8" y1="12" x2="16" y2="12"></line></svg>
-          </a>
-        </h6>
-        <ul class="nav flex-column mb-2">
-          <li class="nav-item">
-            <a class="nav-link" href="#">
-              Current month 1
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">
-              Current month 2
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">
-              Current month 3
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">
-              Current month 4
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">
-              Current month 5
-            </a>
+          <li class="nav-item px-3">
+            <button class="btn cc-bg-orange">Get Started</button>
           </li>
         </ul>
       </div>
-    </nav>
+    </div>
+  </nav>
 
-    <main role="main" class="col-md-7 ml-sm-auto col-lg-8 px-4"><div class="chartjs-size-monitor" style="position: absolute; inset: 0px; overflow: hidden; pointer-events: none; visibility: hidden; z-index: -1;"><div class="chartjs-size-monitor-expand" style="position:absolute;left:0;top:0;right:0;bottom:0;overflow:hidden;pointer-events:none;visibility:hidden;z-index:-1;"><div style="position:absolute;width:1000000px;height:1000000px;left:0;top:0"></div></div><div class="chartjs-size-monitor-shrink" style="position:absolute;left:0;top:0;right:0;bottom:0;overflow:hidden;pointer-events:none;visibility:hidden;z-index:-1;"><div style="position:absolute;width:200%;height:200%;left:0; top:0"></div></div></div>
-      <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-        <h1 class="h2">Dashboard</h1>
-        <div class="btn-toolbar mb-2 mb-md-0">
-          <div class="btn-group mr-2">
-            <button class="btn btn-sm btn-outline-secondary">Share</button>
-            <button class="btn btn-sm btn-outline-secondary">Export</button>
-          </div>
-          <button class="btn btn-sm btn-outline-secondary dropdown-toggle">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
-            This week
-          </button>
-        </div>
-      </div>
-
-      <h2>Section title</h2>
-      <div class="table-responsive">
-
-
-
-      </div>
-    </main>
-  </div>
 </div>
 
-<!-- <main class="container-fluid pt-5 position-relative">
+<main class="container-fluid mt-5">
+ 
+  <section class="courses-section py-3 border-top border-bottom py-5 cc-bg-gray">
+    <h2 class="text-center pb-4 section-subtitle mt-5">Course Catalog</h2>
 
-  <section class="features-section text-center py-5">
-    <div class="search-bar w-25">
-      <div class="content-search">
-        <h2 class="display-5 section-title text-center">Our Mission</h2>
-        <p class="lead text-start section-subtitle mx-3">Our mission is to train the world’s workforce in the careers of the future. We partner with leading technology companies to learn how technology is transforming industries, and teach the critical tech skills that companies are looking for in their workforce. With our powerful and flexible digital education platform, even the busiest learners can prepare themselves to take on the most in-demand tech roles.</p>
-        <p class="lead text-start section-subtitle mx-3">Our mission is to train the world’s workforce in the careers of the future. We partner with leading technology companies to learn how technology is transforming industries, and teach the critical tech skills that companies are looking for in their workforce. With our powerful and flexible digital education platform, even the busiest learners can prepare themselves to take on the most in-demand tech roles.</p>
-        <p class="lead text-start section-subtitle mx-3">Our mission is to train the world’s workforce in the careers of the future. We partner with leading technology companies to learn how technology is transforming industries, and teach the critical tech skills that companies are looking for in their workforce. With our powerful and flexible digital education platform, even the busiest learners can prepare themselves to take on the most in-demand tech roles.</p>
-        <p class="lead text-start section-subtitle mx-3">Our mission is to train the world’s workforce in the careers of the future. We partner with leading technology companies to learn how technology is transforming industries, and teach the critical tech skills that companies are looking for in their workforce. With our powerful and flexible digital education platform, even the busiest learners can prepare themselves to take on the most in-demand tech roles.</p>
+    <h5 class="text-center pb-4 section-subtitle mb-5">Build skills for today, tomorrow, and beyond. Education to future-proof your career.</h5>
+
+    <div class="row mx-lg-4 align-items-stretch justify-content-center">
+      <div class="col-lg-3 col-md-4 col-sm-7 mb-3">
+        <div class="card h-100 border-0 shadow">
+          <img class="card-img-top" src="https://www.udacity.com/www-proxy/contentful/assets/2y9b3o528xhq/4zEEr4FUkSQ7U1UgVPPCHB/d4c2b2a0df97251f8c64a4e1b248f313/data_engineer_catalog_image.jpg" alt="Card image cap">
+          <div class="card-body text-right">
+            <h5 class="card-title">Data Engineer</h5>
+            <p class="card-text">
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star-half-alt text-warning"></i>
+              <small class="text-secondary">4.6 (1057)</small><br>
+              <small class="align-top text-secondary">Intermediate&nbsp;&nbsp;&nbsp;&nbsp;</small><i class="fas fa-thermometer-half text-primary level-bar"></i><br>
+              <small class="card-secondary text-uppercase text-secondary">estimated time</small><br>
+              <small class="card-secondary text-secondary">5 months at 5-10 hrs/week</small>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-7 mb-3">
+        <div class="card h-100 border-0 shadow">
+          <img class="card-img-top" src="//www.udacity.com/www-proxy/contentful/assets/2y9b3o528xhq/4x4nYFuwsS0CVlfp5YQjZQ/13a0153215af9d8be77a0746bf675b25/data_analyst_catalog_image.jpg" alt="Card image cap">
+          <div class="card-body text-right">
+            <h5 class="card-title">Data Analyst</h5>
+            <p class="card-text">
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star-half-alt text-warning"></i>
+              <small class="text-secondary">4.6 (2924)</small><br>
+              <small class="align-top text-secondary">Intermediate&nbsp;&nbsp;&nbsp;&nbsp;</small><i class="fas fa-thermometer-half text-primary level-bar"></i><br>
+              <small class="card-secondary text-uppercase text-secondary">estimated time</small><br>
+              <small class="card-secondary text-secondary">4 months at 5-10 hrs/week</small>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-7 mb-3">
+        <div class="card h-100 border-0 shadow">
+          <img class="card-img-top" src="//www.udacity.com/www-proxy/contentful/assets/2y9b3o528xhq/6mEuxTnE9mxQOrobcU18Re/926be9782dd001e321d6c03356d1e49c/business_analytics_catalog_image.jpg" alt="Card image cap">
+          <div class="card-body text-right">
+            <h5 class="card-title">Business Analytics</h5>
+            <p class="card-text">
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star-half-alt text-warning"></i>
+              <small class="text-secondary">4.7 (1269)</small><br>
+              <small class="align-top text-secondary">Beginner&nbsp;&nbsp;&nbsp;&nbsp;</small><i class="fas fa-thermometer-empty text-primary level-bar"></i><br>
+              <small class="card-secondary text-uppercase text-secondary">estimated time</small><br>
+              <small class="card-secondary text-secondary">3 months at 5-10 hrs/week</small>
+            </p>
+          </div>
+        </div>
       </div>
     </div>
 
-    <div class="content">
-
-      <header class="d-flex flex-column">
-        <div class="container-md pt-5 pb-3">
-          <h1 class="header-title cc-dark-color text-center text-uppercase mb-4 display-5">Course Catalog</h1>
+    <div class="row mx-lg-4 align-items-stretch justify-content-center">
+      <div class="col-lg-3 col-md-4 col-sm-7 mb-3">
+        <div class="card h-100 border-0 shadow">
+          <img class="card-img-top" src="//www.udacity.com/www-proxy/contentful/assets/2y9b3o528xhq/3rwaAEsoRTEH5tG7hkbmiP/7104590268166374b6165b47d01bb454/data_scientist_catalog_image.jpg" alt="Card image cap">
+          <div class="card-body text-right">
+            <h5 class="card-title">Data Scientist</h5>
+            <p class="card-text">
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star-half-alt text-warning"></i>
+              <small class="text-secondary">4.7 (827)</small><br>
+              <small class="align-top text-secondary">Advanced&nbsp;&nbsp;&nbsp;&nbsp;</small><i class="fas fa-thermometer-full text-primary level-bar"></i><br>
+              <small class="card-secondary text-uppercase text-secondary">estimated time</small><br>
+              <small class="card-secondary text-secondary">4 months at 5-10 hrs/week</small>
+            </p>
+          </div>
         </div>
-      </header>
-
-      <footer class="d-flex flex-column align-items-center px-2 px-lg-3">
-        <div class="social-container mb-2">
-          <i class="fab fa-facebook-f h2 mx-2"></i>
-          <i class="fab fa-twitter h2 mx-2"></i>
-          <i class="fab fa-linkedin h2 mx-2"></i>
-          <i class="fab fa-instagram h2 mx-2"></i>
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-7 mb-3">
+        <div class="card h-100 border-0 shadow">
+          <img class="card-img-top" src="//www.udacity.com/www-proxy/contentful/assets/2y9b3o528xhq/5Fo0evGwfNzFwCweh3gVGU/293e87cd9268d48dbdae7b632bd54b1f/Programming_for_Data_Science_with_Python_-_catalog_image.jpg" alt="Card image cap">
+          <div class="card-body text-right">
+            <h5 class="card-title">Data Visualization</h5>
+            <p class="card-text">
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star-half-alt text-warning"></i>
+              <small class="text-secondary">4.6 (164)</small><br>
+              <small class="align-top text-secondary">Beginner&nbsp;&nbsp;&nbsp;&nbsp;</small><i class="fas fa-thermometer-empty text-primary level-bar"></i><br>
+              <small class="card-secondary text-uppercase text-secondary">estimated time</small><br>
+              <small class="card-secondary text-secondary">4 months at 5-10 hrs/week</small>
+            </p>
+          </div>
         </div>
-        <small class="copyright mb-2">© 2021 Dataverse, Inc.</small>
-        <small class="text-center mb-4 px-lg-5">Dataverse is not an accredited university and we don't confer traditional degrees. Dataverse programs represent collaborations with our industry partners who help us develop our content and who hire many of our program graduates.</small>
-      </footer>
-
-    </div> -->
-
-
-
-<!--     <div class="row mx-lg-4">
-      <div class="col-md-4">
-          <h2 class="display-5 section-title text-center">Our Mission</h2>
-          <img class="img-top w-100 img-thumbnail mb-3" src="https://www.delltechnologies.com/uploads/2019/02/teach-data-employees.jpg" alt="image top">
-          <img class="img-top w-100 img-thumbnail" src="https://miro.medium.com/max/13440/1*UpJbh1ljgzKwSZ2-q5S1Bg.jpeg" alt="image top">
       </div>
-
-      <div class="col-md-8 my-3 bg-primary py-4 mission-container d-flex flex-column justify-content-center">
-        <h2 class="display-5 section-title text-center">Our Mission</h2>
-        <p class="lead text-start section-subtitle mx-3">Our mission is to train the world’s workforce in the careers of the future. We partner with leading technology companies to learn how technology is transforming industries, and teach the critical tech skills that companies are looking for in their workforce. With our powerful and flexible digital education platform, even the busiest learners can prepare themselves to take on the most in-demand tech roles.</p>
-        <p class="lead text-start section-subtitle mx-3">Our mission is to train the world’s workforce in the careers of the future. We partner with leading technology companies to learn how technology is transforming industries, and teach the critical tech skills that companies are looking for in their workforce. With our powerful and flexible digital education platform, even the busiest learners can prepare themselves to take on the most in-demand tech roles.</p>
-        <p class="lead text-start section-subtitle mx-3">Our mission is to train the world’s workforce in the careers of the future. We partner with leading technology companies to learn how technology is transforming industries, and teach the critical tech skills that companies are looking for in their workforce. With our powerful and flexible digital education platform, even the busiest learners can prepare themselves to take on the most in-demand tech roles.</p>
-        <p class="lead text-start section-subtitle mx-3">Our mission is to train the world’s workforce in the careers of the future. We partner with leading technology companies to learn how technology is transforming industries, and teach the critical tech skills that companies are looking for in their workforce. With our powerful and flexible digital education platform, even the busiest learners can prepare themselves to take on the most in-demand tech roles.</p>
+      <div class="col-lg-3 col-md-4 col-sm-7 mb-3">
+        <div class="card h-100 border-0 shadow">
+          <img class="card-img-top" src="//www.udacity.com/www-proxy/contentful/assets/2y9b3o528xhq/7c906TlrrN7t8YHKd1VZTh/ac9756cf1f4cbe7eff1c73906af938e5/catalog_image_nd030.jpg" alt="Card image cap">
+          <div class="card-body text-right">
+            <h5 class="card-title">Data Structures and Algorithms</h5>
+            <p class="card-text">
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star-half-alt text-warning"></i>
+              <small class="text-secondary">4.6 (642)</small><br>
+              <small class="align-top text-secondary">Intermediate&nbsp;&nbsp;&nbsp;&nbsp;</small><i class="fas fa-thermometer-half text-primary level-bar"></i><br>
+              <small class="card-secondary text-uppercase text-secondary">estimated time</small><br>
+              <small class="card-secondary text-secondary">4 months at 5-10 hrs/week</small>
+            </p>
+          </div>
+        </div>
       </div>
-    </div> -->
+    </div>
 
+    <div class="row mx-lg-4 align-items-stretch justify-content-center">
+      <div class="col-lg-3 col-md-4 col-sm-7 mb-3">
+        <div class="card h-100 border-0 shadow">
+          <img class="card-img-top" src="//www.udacity.com/www-proxy/contentful/assets/2y9b3o528xhq/4jKQNZc9hc9f4YE3ltWinI/91e3800980872d65bc283a828a2892a0/data_streaming_Catalog_image.jpg" alt="Card image cap">
+          <div class="card-body text-right">
+            <h5 class="card-title">Data Streaming</h5>
+            <p class="card-text">
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star text-warning"></i>
+              <i class="far fa-star text-warning"></i>
+              <small class="text-secondary">4.2 (1269)</small><br>
+              <small class="align-top text-secondary">Advanced&nbsp;&nbsp;&nbsp;&nbsp;</small><i class="fas fa-thermometer-full text-primary level-bar"></i><br>
+              <small class="card-secondary text-uppercase text-secondary">estimated time</small><br>
+              <small class="card-secondary text-secondary">3 months at 5-10 hrs/week</small>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-7 mb-3">
+        <div class="card h-100 border-0 shadow">
+          <img class="card-img-top" src="//www.udacity.com/www-proxy/contentful/assets/2y9b3o528xhq/4Vsc69B7HtGJleUbsGoEQF/df82194a8785db58a5fc6e344ef71ad0/catalog_image_nd072.jpg" alt="Card image cap">
+          <div class="card-body text-right">
+            <h5 class="card-title">SQL</h5>
+            <p class="card-text">
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star-half-alt text-warning"></i>
+              <small class="text-secondary">4.5 (130)</small><br>
+              <small class="align-top text-secondary">Beginner&nbsp;&nbsp;&nbsp;&nbsp;</small><i class="fas fa-thermometer-empty text-primary level-bar"></i><br>
+              <small class="card-secondary text-uppercase text-secondary">estimated time</small><br>
+              <small class="card-secondary text-secondary">2 months at 10 hrs/week</small>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-7 mb-3">
+        <div class="card h-100 border-0 shadow">
+          <img class="card-img-top" src="//www.udacity.com/www-proxy/contentful/assets/2y9b3o528xhq/4j3k0Fuu9EWVbf7TcdlkIs/f6e426f39867b633c72c6ca649e110c7/Marketing_analytics_catalog_image.jpg" alt="Card image cap">
+          <div class="card-body text-right">
+            <h5 class="card-title">Marketing Analyst</h5>
+            <p class="card-text">
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star text-warning"></i>
+              <i class="fas fa-star-half-alt text-warning"></i>
+              <small class="text-secondary">4.7 (281)</small><br>
+              <small class="align-top text-secondary">Beginner&nbsp;&nbsp;&nbsp;&nbsp;</small><i class="fas fa-thermometer-empty text-primary level-bar"></i><br>
+              <small class="card-secondary text-uppercase text-secondary">estimated time</small><br>
+              <small class="card-secondary text-secondary">3 months at 10 hrs/week</small>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
 
+    <div class="row mx-lg-4 mt-5 align-items-stretch justify-content-center">
+      <div class="col-lg-3 col-md-4 col-5 mb-3">
+        <button class="btn cc-bg-dark cc-gray-color p-2 w-100">Download Syllabus</button>
+      </div>
+      <div class="col-lg-3 col-md-4 col-5 mb-3">
+        <button class="btn cc-bg-orange p-2 w-100">Enroll now</button>
+      </div>
+    </div>
   </section>
 
+
+
 </main>
+
+<footer class="d-flex flex-column align-items-center px-2 px-lg-3 pt-4 cc-bg-dark">
+  <div class="social-container mb-2">
+    <i class="fab fa-facebook-f h2 mx-2 cc-gray-color"></i>
+    <i class="fab fa-twitter h2 mx-2 cc-gray-color"></i>
+    <i class="fab fa-linkedin h2 mx-2 cc-gray-color"></i>
+    <i class="fab fa-instagram h2 mx-2 cc-gray-color"></i>
+  </div>
+  <small class="copyright mb-2 cc-gray-color">© 2021 Dataverse, Inc.</small>
+  <small class="text-center mb-4 px-lg-5 cc-gray-color">Dataverse is not an accredited university and we don't confer traditional degrees. Dataverse programs represent collaborations with our industry partners who help us develop our content and who hire many of our program graduates.</small>
+</footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
 </body>

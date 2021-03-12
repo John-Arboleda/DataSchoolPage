@@ -28,11 +28,11 @@
 }
 
 .header-title {
-  text-shadow: 2px 2px 8px #ec5242;
+  text-shadow: 2px 2px 8px #272a31;
 }
 
 .header-text {
-  text-shadow: 1px 1px 2px #ec5242;
+  text-shadow: 1px 1px 2px #272a31;
 }
 
 * {
@@ -47,27 +47,52 @@
   color: #d3d3d3;
 }
 
-/* Index.html */
+.nav-dar-font {
+  font-size: smaller;
+}
+
+/* Background */
 
 .header-home,
 .resources-container,
 .story-container,
-.header-about {
+.header-about,
+.features-section {
   background-position: center;
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
-.header-sub {
-  background-color: #d3d3d356;
+.cc-bg-gray {
+  background-color: #d3d3d3;
+}
+
+.cc-bg-gray-clear {
+  background-color: #d3d3d396;
+}
+
+.cc-bg-dark {
+  background-color: #272a31;
+}
+
+.cc-bg-orange {
+  background-color: #ec5242;
 }
 
 .header-home {
   background-image: url("https://miro.medium.com/max/1200/1*TBSV23ud8tae3E4szI5EDA.jpeg");
+  background-blend-mode: screen;
+  padding-top: 50px;
 }
 
 .level-bar {
   transform: rotate(90deg);
   font-size: 20px;
+}
+
+.instructor__image {
+  height: 96px;
+  width: 96px;
 }
 
 .card-secondary {
@@ -79,8 +104,7 @@
 }
 
 .resources-container {
-  padding: 200px 0;
-  background-image: url("https://edtechmagazine.com/higher/sites/edtechmagazine.com.higher/files/styles/cdw_hero/public/articles/%5Bcdw_tech_site%3Afield_site_shortname%5D/202002/aihero.jpg?itok=f2TWAOuP");
+  padding: 100px 0;
 }
 
 /* about.html */
@@ -106,9 +130,14 @@
   background-image: url("https://d125fmws0bore1.cloudfront.net/webpack/production/app/components/AboutUs/assets/bg-join-mission.jpg");
 }
 
+/* .story-container,
+.features-section {
+  background-image: url("https://i.pinimg.com/originals/a9/95/f5/a995f5abc92c3d5a96618f5b986fcd2c.jpg");
+  background-blend-mode: darken;
+} */
+
 .story-container {
   padding: 100px 0;
-  background-image: url("https://i.pinimg.com/originals/a9/95/f5/a995f5abc92c3d5a96618f5b986fcd2c.jpg");
 }
 
 .story-text-cont {
