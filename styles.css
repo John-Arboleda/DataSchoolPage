@@ -79,7 +79,8 @@
 .header-home {
   background-image: url("https://miro.medium.com/max/1200/1*TBSV23ud8tae3E4szI5EDA.jpeg");
   background-blend-mode: screen;
-  padding-top: 50px;
+  padding-top: 70px;
+  padding-bottom: 30px;
 }
 
 .level-bar {
@@ -98,6 +99,7 @@
 
 .card-feature {
   border-width: 4px;
+  border-color: #ec5242;
 }
 
 .card-feature:hover {
