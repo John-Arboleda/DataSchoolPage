@@ -116,25 +116,19 @@
 }
 
 .mission-container {
-  background-image: linear-gradient(to bottom right, rgb(90, 219, 79), rgb(0, 255, 191));
-  max-width: 450px;
+  max-width: 600px;
 }
 
 .students-container {
-  background-image: linear-gradient(to bottom right, rgb(106, 117, 216), rgb(197, 96, 184));
   max-width: 550px;
 }
 
 .jobs-container {
   padding: 100px 0;
   background-image: url("https://d125fmws0bore1.cloudfront.net/webpack/production/app/components/AboutUs/assets/bg-join-mission.jpg");
-}
-
-/* .story-container,
-.features-section {
-  background-image: url("https://i.pinimg.com/originals/a9/95/f5/a995f5abc92c3d5a96618f5b986fcd2c.jpg");
+  background-color: rgb(255, 0, 0);
   background-blend-mode: darken;
-} */
+}
 
 .story-container {
   padding: 100px 0;
@@ -145,7 +139,8 @@
 }
 
 .header-about {
-  background-image: url("https://www.simplilearn.com/ice9/free_resources_article_thumb/10-algorithms-machine-learning-engineers-need-to-know-article.jpg");
+  padding-top: 50px;
+  padding-bottom: 120px;
 }
 
 /* courses */
