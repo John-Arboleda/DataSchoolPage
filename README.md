@@ -4,21 +4,30 @@
 
 > This is the Capstone project for the Microverse HTML/CSS module. A webpage inspired on the [Creative Commons Global Summit 2015](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) website was implemented.
 
-![screenshot 1](./items/Screenshot-navbar.png)
+The main purpose of this project is to put into practice the concepts of **Layout**, **Flexbox**, **Grid** and **Bootstrap**. Indispensable tools for a Web Developer. 
 
-![screenshot 2](./items/Screenshot-editors-choice.png)
+## Desktop view
 
-![screenshot 3](./items/Screenshot-Inflation.png)
+![screenshot 1](./images/header-img.png)
 
-The main purpose of this project is practicing **Layout**, **Flexbox** and **Grid**. Indispensable concepts for a Web Developer.  
+![screenshot 2](./images/courses-img.png)
+
+## Mobile view
+
+![screenshot 3](./images/footer-mobile.png)
+
+
+## Video Description
+
+- Check out [this](https://www.loom.com/share/7a7667bd520f459da741f9affc879918) short Loom description of the project.
 
 ## Built With
 
-- HTML/CSS
+- HTML/CSS/Bootstrap
 
 ## Live Demo
 
-[Live Demo Link](https://john-arboleda.github.io/NYT-clone-project-1/)
+[Live Demo Link](https://john-arboleda.github.io/DataSchoolPage/)
 
 To get a local copy up and running follow these simple example steps.
 
@@ -48,9 +57,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- The content and images are from [udacity.com](https://www.udacity.com/)
 
 ## 📝 License
 
