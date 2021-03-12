@@ -19,7 +19,7 @@ The main purpose of this project is to put into practice the concepts of **Layou
 
 ## Video Description
 
-- Check out [this](https://www.loom.com/share/b23377c8987f47d692145b3257a4ab02) short Loom description of the project.
+- Check out [this](https://www.loom.com/share/7a7667bd520f459da741f9affc879918) short Loom description of the project.
 
 ## Built With
 
